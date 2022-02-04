@@ -1,0 +1,44 @@
+:root{
+--accent-color: #2196f3;
+--primary-font-family: font-family: 'Roboto', sans-serif;
+--secondary-font-family: font-family: 'Raleway', sans-serif;
+--backgroung-color-dark-theme: #2F303A;
+--background-light-theme: #F5F4FA;
+--primary-text-color-theme-dark: #FFFFFF;
+--primary-text-color-theme-light: #212121;
+--secondary-text-color-theme-light: #757575;
+}
+.list{
+list-style: none;
+}
+.link{
+text-decoration: none;
+}
+.nav-list{
+    color: var(--primary-text-color-theme-light);
+}
+.header-page,
+.header-list{
+    color: var(--primary-text-color-theme-light);
+    background-color: var(--primary-text-color-theme-dark);
+}
+
+.nav-list:hover
+.nav-list:focus,
+.header-list:hover,
+.header-list:focus{
+    background-color: var(--accent-color);
+    color: var(--primary-text-color-theme-dark);
+}
+
+
+
+
+.hero-section{
+    background-color: var(--backgroung-color-dark-theme);
+}
+
+
+.footer-page{
+    background-color: var(--backgroung-color-dark-theme);
+}

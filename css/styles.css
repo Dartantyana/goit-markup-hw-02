@@ -9,10 +9,12 @@
 --secondary-text-color-theme-light: #757575;
 --logo-color: #000000;
 }
+
 body{
     font-family: var(--primary-font-family);
     color: var(--primary-text-color-theme-light);
 }
+
 .list{
 list-style: none;
 }
@@ -21,7 +23,7 @@ text-decoration: none;
 }
 
 .logo{
-    font-family: var(--secondary-font-family);
+font-family: var(--secondary-font-family);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
